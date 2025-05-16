@@ -41,9 +41,5 @@ return -1
 
 3. Executando o ProgramaExecutando o Programa
 - Para executar o programa, execute o método `main` na classe `Factorial.java`. O programa solicitará a  Para executar o programa, execute o método `main` na classe `Factorial.java`. O programa solicitará a 
-## Test Cases
-- 🧪Test cases are implemented using `JUnit 5` to ensure the correctness of my `Factorial class`.
-
-## Created by: 🧑‍🎨[Peter Salter](https://github.com/PJSalter)
-
-## 🚀Happy Coding ✨
+## Casos de TesteCasos de Teste
+- 🧪Os casos de teste são implementados usando `JUnit 5` para garantir a correção da minha `classe Fatorial`.
