@@ -1,51 +1,46 @@
 # 🧪 Factorial Calculator 📟
-## Problem Statement
-For this programming challenge, I was tasked to implement a Java program that calculates and prints the factorial of a number input by the user.
+## Declaração do Problema
 
-The factorial of a positive integer num is the product of all numbers in the range from 1 to num.
+O fatorial de um inteiro positivo num é o produto de todos os números no intervalo de 1 a num.
 
-## Example:
+## Exemplo:## Exemplo:## Exemplo:
 
 ```agsl
-Factorial(4) = 1 * 2 * 3 * 4, which gives the result of 24.
+Factorial(4) = 1 * 2 * 3 * 4, que resulta em 24.
 ```
-## Input Format
-The user can input a value to be used in the calculation.
+## Formato de entrada
+O usuário pode inserir um valor a ser usado no cálculo.
+O programa produzirá um único valor mostrando o fatorial do número inserido pelo usuário.
+## Restrições
+O valor de entrada deve ser:
 
-## Output Format
-The program will output a single value showing the factorial of the number input by the user.
+- Um número inteiro
+- Positivo
+- Entre 1 e 10, inclusive
+- 
+## Instruções
+- Atualizei minha classe `Factorial.java` existente para calcular a funcionalidade adequada.
+- Para os prompts e outras saídas para o console, usei `this.printStream.print()` e NÃO `System.
+- 
+## Tarefas
+1. Atualizar o método `isInputNumberValid`:
 
-## Constraints
-The input value must be:
-
-- An integer
-- Positive
-- Between 1 and 10, inclusive
-
-## Instructions
-- I updated my existing `Factorial.java` class to calculate the proper functionality.
-- For the prompts and other output to the console, I used `this.printStream.print()` and NOT `System.out.println()`.
-
-## Tasks
-1.  Update `isInputNumberValid` Method:
-
-- Update my `isInputNumberValid` method to accept a number from the user and store the value in an instance variable `num`.
-- Use the instance variable `scanner` to accept input from the user.
-- If the input value is valid, return the number input by the user (NOT the factorial of the number).
-- In case of invalid input, print the following message to the console:
+- Atualizar meu método `isInputNumberValid` para aceitar um número do usuário e armazenar o valor em uma variável de instância `num`.
+-Utilize a variável de instância Utilize a variável de instância `scanner` para aceitar a entrada do usuário.
+- Se o valor de entrada for válido, retorne o número inserido pelo usuário (NÃO o fatorial do número).
+- Em caso de entrada inválida, pri
 
 ```agsl
 Invalid entry. Please enter an integer between 1 and 10, inclusive.
 return -1
 ```
 
-2. Updating `calculateFactorial` Method:
+2.Atualizando o método `calculateFactorial`:
 
-- Updating my `calculateFactorial` method so that it calculates and outputs the factorial of the number input by the user.
+- Atualizando meu método `calculateFactorial` para que ele calcule e exiba o fatorial do número inserido pelo usuário. Atualizando meu método `calculateFactorial` para que ele calcule e exiba o fatorial do número inserido pelo usuário.
 
-3. Running the Program
-- To run the program, execute the `main` method in the `Factorial.java class`. The program will prompt the user to enter an integer between 1 and 10, inclusive.
-
+3. Executando o ProgramaExecutando o Programa
+- Para executar o programa, execute o método `main` na classe `Factorial.java`. O programa solicitará a  Para executar o programa, execute o método `main` na classe `Factorial.java`. O programa solicitará a 
 ## Test Cases
 - 🧪Test cases are implemented using `JUnit 5` to ensure the correctness of my `Factorial class`.
 
